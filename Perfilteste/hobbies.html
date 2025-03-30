@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Portfólio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            /* Fonte Open Sans */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 30px;
+            font-size: 36px;
+            color: #ffffff;
+            width: 100%;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            width: 90%;
+            max-width: 900px;
+            background-color: #1f1f1f;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .buttons button {
+            padding: 12px 25px;
+            font-size: 16px;
+            margin-right: 10px;
+            background-color: #1e3a8a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .buttons button:hover {
+            background-color: #1e2a5a;
+        }
+
+        .github-link {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #1e3a8a;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            transition: color 0.3s ease;
+        }
+
+        .github-link:hover {
+            color: #1e2a5a;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            section {
+                width: 100%;
+            }
+
+            .buttons {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            .buttons button {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>O que eu gosto de fazer?</h2>
+    </header>
+
+    <section>
+        <article>
+            <h1>Lazer</h1>
+            <p>Gosto muito de esportes em geral, como academia, corrida e lutas. Além disso, aprecio viver novas
+                experiências, viajar e curtir momentos de paz. Também gosto de assistir filmes, ouvir podcasts, ver
+                muitas lutas, jogar, e aproveitar uma boa música.</p>
+            <p>No momento sou lutador de boxe amador pela academia Xteam.</p>
+            <p>Sou uma pessoa que gosto de desafios e me testar, por isso que o Boxe em si me completa.</p>
+
+            <img src="boxekauan.jpeg" alt="Foto de Kauan boxeador" class="profile-img">
+
+            <div class="buttons">
+                <a href="projetospessoais.html"><button>Projetos Pessoais</button></a>
+                <a href="hobbies.html"><button>Hobbies</button></a>
+                <a href="contatos.html"><button>Contatos</button></a>
+                <a href="index.html"><button>Home</button></a>
+            </div>
+        </article>
+    </section>
+
+</body>
+
+</html>
