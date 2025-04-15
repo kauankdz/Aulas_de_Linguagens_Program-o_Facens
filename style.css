@@ -1,0 +1,78 @@
+body {
+    padding-bottom: 60px; /* espaço pro rodapé fixo */
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  /* Estilização básica para a página Bootstrap */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1d;
+    color: #f5f2f2;
+  }
+  
+  /* Estilo para o título principal */
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0d6efd;
+  }
+  
+  /* Cards */
+  .card-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  /* Formulário */
+  form input {
+    border-radius: 6px;
+  }
+  
+  form button {
+    margin-top: 10px;
+  }
+  
+  /* Accordion */
+  .accordion-button {
+    background-color: #e7f1ff;
+    color: #0d6efd;
+  }
+  
+  .accordion-body {
+    background-color: #f9f9f9;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #212529;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  /* Navbar */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  .nav-link {
+    margin-right: 10px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
